@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/C02KpZk/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "description": "C programming is a widely-used and influential programming language known for its simplicity, efficiency, and versatility. It was developed in the early 1970s by Dennis Ritchie at Bell Labs as an evolution of the B programming language.",
+        "price": 15000,
+        "credit": 1
+    },        
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/zbBt152/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "description": "An algorithm is a step-by-step set of instructions for solving a particular problem or performing a specific task. Algorithms are fundamental to computer science and play a crucial role in various fields, from data analysis and artificial intelligence to software development and cryptography.",
+        "price": 25000,
+        "credit": 2
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/GHDPFfg/Rectangle-2-4.png",
+        "title": "Introduction to C++ for DSA",
+        "description": "C++ is a popular programming language that is widely used in the field of Data Structures and Algorithms (DSA). It offers a powerful combination of features that make it well-suited for implementing and working with complex data structures and algorithms efficiently. ",
+        "price": 10000,
+        "credit": 10
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/23W1bj7/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "description": "Data structures are fundamental components of computer science and programming. They are used to organize and store data in a way that facilitates efficient access, modification, and retrieval.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/BgPqH6B/Rectangle-2.png",
+        "title": "Introduction to OOP Python",
+        "description": "Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to structure and organize code. Python is a versatile and popular programming language that fully supports OOP principles.",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/Yk3xvQV/Rectangle-2-5.png",
+        "title": "Software Engineering",
+        "description": "Software Engineering is a disciplined approach to designing, developing, and maintaining software systems efficiently and effectively. It involves a systematic, organized, and quantifiable process of software development, from the initial idea to the final product's maintenance and evolution.",
+        "price": 23000,
+        "credit": 2
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/wcnP69B/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "description": "Amazon Web Services (AWS) is a comprehensive and widely-used cloud computing platform offered by Amazon. Cloud computing refers to the delivery of various computing services, including servers, storage, databases, networking, analytics, machine learning, and more, over the internet. AWS provides these services on a pay-as-you-go basis, allowing organizations to access and use computing resources without the need to invest in physical hardware or maintain data centers.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/ZXKncw0/Rectangle-2-1.png",
+        "title": "Database (MySQL)",
+        "description": "MySQL is an open-source relational database management system (RDBMS) that is widely used for managing and organizing structured data. It is known for its performance, reliability, and ease of use. MySQL is commonly used in web applications, content management systems, and various other software projects.",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/D41tqhY/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "description": "Certainly, let's delve into problem-solving techniques and strategies. Effective problem-solving is a critical skill in various aspects of life, including academia, work, and personal development.",
+        "price": 23000,
+        "credit": 2
+    }
+]

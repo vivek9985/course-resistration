@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f3f3f3;
+}
+.Toastify__progress-bar.Toastify__progress-bar--animated.Toastify__progress-bar-theme--light.Toastify__progress-bar--default {
+  background: linear-gradient(
+    90deg,
+    rgb(29, 74, 220) 6%,
+    rgb(224, 10, 199) 58%,
+    rgb(248, 74, 117) 40%
+  );
+  height: 2px;
+}
+.Toastify__toast-theme--light {
+  border-radius: 10px;
+}
+.Toastify__toast-container--top-right {
+  right: 2.8em;
+}
+.Toastify__toast {
+  min-height: 0;
+  overflow: hidden;
+}
