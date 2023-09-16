@@ -27,7 +27,7 @@ const Course = () => {
           <div className="bg-red-400 flex items-center justify-center w-5 h-5 rounded-full">
               <p className="text-lg font-semibold text-black">!</p>
             </div>
-          <h2 className="text-red-500 pl-2">already added to the cart !</h2>
+          <h2 className="text-red-500 pl-2">already added to the cart ! </h2>
         </div>
       );
     } else {
@@ -53,7 +53,7 @@ const Course = () => {
         toast(
           <div className="flex items-center ">
             <img className="w-[22px]" src={tike} alt="Frame" />
-            <h2 className="text-green-500 pl-2">added to the cart !</h2>
+            <h2 className="text-green-500 pl-2">added to the cart ! </h2>
           </div>
         );
       }
@@ -73,7 +73,7 @@ const Course = () => {
               <h2 className="text-sm lg:text-base font-semibold py-3 text-gray-700">
                 {course.title}
               </h2>
-              <p className="text-sm font-medium text-gray-500">
+              <p className="text-sm text-gray-500">
                 {course.description.slice(0, 135)}
                 ...
               </p>

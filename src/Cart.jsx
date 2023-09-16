@@ -12,18 +12,18 @@ const Cart = ({ selectedCourse, creditHour, remainingHour, totalPrice }) => {
             {selectedCourse.map((course) => (
               <li
                 key={course.id}
-                className="text-sm font-semibold text-gray-400 py-0.5"
+                className="text-gray-400 py-0.5"
               >
                 {course.title}
               </li>
             ))}
           </ul>
           <hr />
-          <h2 className="text-sm text-gray-600 font-semibold py-3">
+          <h2 className="text-gray-600 font-semibold py-3">
             Total Credit Hour : {creditHour} hr
           </h2>
           <hr />
-          <h2 className="text-sm text-gray-600 font-semibold pt-2">
+          <h2 className="text-gray-600 font-semibold pt-2">
             Total Price : {totalPrice} USD
           </h2>
         </div>
