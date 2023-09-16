@@ -1,13 +1,18 @@
+/* google font url */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+/* tailwind code */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/* custom style */
 body {
   font-family: "Inter", sans-serif;
   background: #f3f3f3;
 }
+/* toastify curstom style */
 .Toastify__progress-bar.Toastify__progress-bar--animated.Toastify__progress-bar-theme--light.Toastify__progress-bar--default {
   background: linear-gradient(
     90deg,

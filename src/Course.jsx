@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { Component, useEffect, useState } from "react";
 import Cart from "./Cart";
 import doller from "./assets/dollar-sign 1.svg";
 import frame from "./assets/Frame.svg";
 import tike from "./assets/tike.svg";
+// third party package here
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -59,6 +60,7 @@ const Course = () => {
       }
     }
   };
+  // main component here 
   return (
     <>
       <div className="w-full mx-auto flex flex-col lg:flex-row gap-4">
@@ -100,12 +102,14 @@ const Course = () => {
             </div>
           ))}
         </div>
+        {/* cart component here */}
         <Cart
           selectedCourse={selectedCourse}
           creditHour={creditHour}
           remainingHour={remainingHour}
           totalPrice={totalPrice}
         />
+        {/* toast component here */}
         <ToastContainer />
       </div>
     </>
