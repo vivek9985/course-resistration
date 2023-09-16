@@ -1,8 +1,9 @@
-# React + Vite
+## Added at least 3 Project features
+1. Full website made dynamically.
+2. Latest technology (React, Tailwind) used in this website.
+3. This website is responsive for all devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Discussed how i managed the state in my assignment project.
+- First I downloaded the assignment resources from Programming Hero's Github. Then install React with vite.I need some images to create fake data so i host some images at https://imgbb.com/ then create fake data in public folder named course.json file. Then create a component. Create Course named component with data from json. Then create another component called Cart and call it in Course component. Then use all necessary conditional rendering, calculations and toastify in select button.And send its output to the Cart component via props. And show toast as alert with output and show output data in Cart component. Then add informations in readme file. Then build the dist file. After that, deploy the code to GitHub. And also deploy to the Surge for live site. Then check if everything is fine. And finally submit it. After submission, double check that the submitted link is correct.
+### Thank You (:
